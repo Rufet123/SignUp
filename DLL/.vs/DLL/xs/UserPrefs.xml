@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{26757FA0-975C-4181-A913-80B50F9BBF3A}|Default">
+  <MonoDevelop.Ide.ItemProperties.DLL PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="User/SignUp.cs">
+    <Files>
+      <File FileName="DLL/Program.cs" />
+      <File FileName="User/SignUp.cs" Line="25" Column="3" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DLL" expanded="True">
+            <Node name="DLL" expanded="True" />
+            <Node name="User" expanded="True">
+              <Node name="SignUp.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

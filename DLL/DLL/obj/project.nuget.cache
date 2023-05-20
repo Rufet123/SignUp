@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "CzsBzDrEAMGh5bsL9L1xUHsk54F7kO+yaAhISUkJUUl7NIvEnwpvu7JOz86Zf21EcnXZ+9iWKZqL9So6Wpl/Og==",
+  "success": true,
+  "projectFilePath": "/Volumes/Mac/C#/Quiz1/DLL/DLL/DLL.csproj",
+  "expectedPackageFiles": [
+    "/Users/rufat/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/rufat/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512",
+    "/Users/rufat/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

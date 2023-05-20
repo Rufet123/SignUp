@@ -1,0 +1,10 @@
+/Volumes/Mac/C#/Quiz1/DLL/User/bin/Debug/netcoreapp3.1/User.deps.json
+/Volumes/Mac/C#/Quiz1/DLL/User/bin/Debug/netcoreapp3.1/User.dll
+/Volumes/Mac/C#/Quiz1/DLL/User/bin/Debug/netcoreapp3.1/User.pdb
+/Volumes/Mac/C#/Quiz1/DLL/User/obj/Debug/netcoreapp3.1/User.csproj.AssemblyReference.cache
+/Volumes/Mac/C#/Quiz1/DLL/User/obj/Debug/netcoreapp3.1/User.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Mac/C#/Quiz1/DLL/User/obj/Debug/netcoreapp3.1/User.AssemblyInfoInputs.cache
+/Volumes/Mac/C#/Quiz1/DLL/User/obj/Debug/netcoreapp3.1/User.AssemblyInfo.cs
+/Volumes/Mac/C#/Quiz1/DLL/User/obj/Debug/netcoreapp3.1/User.csproj.CoreCompileInputs.cache
+/Volumes/Mac/C#/Quiz1/DLL/User/obj/Debug/netcoreapp3.1/User.dll
+/Volumes/Mac/C#/Quiz1/DLL/User/obj/Debug/netcoreapp3.1/User.pdb

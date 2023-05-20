@@ -1,0 +1,17 @@
+/Volumes/Mac/C#/Quiz1/DLL/DLL/bin/Debug/netcoreapp3.1/DLL
+/Volumes/Mac/C#/Quiz1/DLL/DLL/bin/Debug/netcoreapp3.1/DLL.deps.json
+/Volumes/Mac/C#/Quiz1/DLL/DLL/bin/Debug/netcoreapp3.1/DLL.runtimeconfig.json
+/Volumes/Mac/C#/Quiz1/DLL/DLL/bin/Debug/netcoreapp3.1/DLL.runtimeconfig.dev.json
+/Volumes/Mac/C#/Quiz1/DLL/DLL/bin/Debug/netcoreapp3.1/DLL.dll
+/Volumes/Mac/C#/Quiz1/DLL/DLL/bin/Debug/netcoreapp3.1/DLL.pdb
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.csproj.AssemblyReference.cache
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.AssemblyInfoInputs.cache
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.AssemblyInfo.cs
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.csproj.CoreCompileInputs.cache
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.csproj.CopyComplete
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.dll
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.pdb
+/Volumes/Mac/C#/Quiz1/DLL/DLL/obj/Debug/netcoreapp3.1/DLL.genruntimeconfig.cache
+/Volumes/Mac/C#/Quiz1/DLL/DLL/bin/Debug/netcoreapp3.1/User.dll
+/Volumes/Mac/C#/Quiz1/DLL/DLL/bin/Debug/netcoreapp3.1/User.pdb
