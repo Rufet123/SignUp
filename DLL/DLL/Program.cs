@@ -2,6 +2,8 @@
 using User;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using System.Numerics;
+using System.Linq;
 
 namespace DLL
 {
@@ -23,6 +25,7 @@ namespace DLL
                 Console.WriteLine("if you want to enter your user profile press 2");
                 Console.WriteLine("if you want to update profile \"edit\" press 3");
                 Console.WriteLine("if you want to delete profile press 4");
+                Console.WriteLine("if you want to show all of users names press 5");
                 Console.WriteLine("if you want to close page press 0");
                 int choose = Convert.ToInt32(Console.ReadLine());
                 if (choose==0)
@@ -92,7 +95,7 @@ namespace DLL
                     string password = Console.ReadLine();
                     for (int i = 0; i < userData.Length; i++)
                     {
-                        if (email == userData[i].Email && password == userData[i].Password)
+                        if (email.ToLower() == userData[i].Email.ToLower() && password == userData[i].Password)
                         {
                             acces = true;
                             Console.WriteLine(userData[i].FullInfo());
@@ -107,21 +110,106 @@ namespace DLL
                 }
                 else if (choose==3)
                 {
-                    Boolean update = false;
+                    bool update = false;
                     Console.WriteLine("if you want to update your profile enter user email");
                     string email = Console.ReadLine();
                     Console.WriteLine("if you want to update your profile enter user password");
                     string password = Console.ReadLine();
                     for (int i = 0; i < userData.Length; i++)
                     {
-                        if (email == userData[i].Email && password == userData[i].Password)
+                        if (email.ToLower() == userData[i].Email.ToLower() && password == userData[i].Password)
                         {
+                            update = true;
                             Console.WriteLine("if you want to change password press 1");
                             Console.WriteLine("if you want to change email and username press 2");
                             Console.WriteLine("if you want to change phone number press 3 Number must bu Azerbaijan number");
-                            Console.WriteLine("if you want to edit profile press 4");
                             Console.WriteLine("if you dont want to update profile press 0");
+                            int selection = Convert.ToInt32(Console.ReadLine());
+                            if (selection==0)
+                            {
+                                Console.WriteLine("profile dont update");
+                                update = false;
+                                break;
+                            }
+                            else if (selection==1)
+                            {
+                                Console.WriteLine("enter new password for update your password");
+                                string newPassword = Console.ReadLine();
+                                Match matchPassword = rejPassword.Match(newPassword);
+                                if (matchPassword.Success)
+                                {
+                                    userData[i].Password = newPassword;
+                                    Console.WriteLine("password update..");
+                                }
+                            }
+                            else if (selection == 2)
+                            {
+                                Console.WriteLine("enter new username for update your username");
+                                string newUserName = Console.ReadLine();
+                                Console.WriteLine("enter new Email for update your email");
+                                string newEmail = Console.ReadLine();
+                                Match matchEmail = rejEmail.Match(email);
+                                if (matchEmail.Success)
+                                {
+                                    userData[i].Email = newEmail;
+                                    Console.WriteLine("email update..");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("email is not valid");
+                                }
+                                Console.WriteLine("username  update..");
+                                
+                                
+                            }
+                            else if (selection == 3)
+                            {
+                                Console.WriteLine("enter new phone number for update your phone number");
+                                string newPhone = Console.ReadLine();
+                                Match matchPhone = rejPhone.Match(newPhone);
+                                if (matchPhone.Success)
+                                {
+                                    userData[i].Phone = newPhone;
+                                    Console.WriteLine("phone number update..");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("phone number must bu Azerbaijan number..");
+                                }
+                            }
                         }
+                    }
+                    if (update==false)
+                    {
+                        Console.WriteLine("email or password is incorrect");
+                    }
+                }
+                else if (choose==4)
+                {
+                    Boolean deleted = false;
+                    Console.WriteLine("if you want to delete your profile enter user email");
+                    string email = Console.ReadLine();
+                    Console.WriteLine("if you want to delete your profile enter user password");
+                    string password = Console.ReadLine();
+                    foreach (var item in userData)
+                    {
+                        if (email.ToLower()==item.Email.ToLower()&&password==item.Password)
+                        {
+                            userData = userData.Where(val => val != item).ToArray();
+                            Console.WriteLine("your profile is deleted:");
+                            deleted = true;
+                        }
+                    }
+                    if (deleted==false)
+                    {
+                        Console.WriteLine("email or password is incorrect");
+                    }
+                }
+                else if (choose==5)
+                {
+                    foreach (var item in userData)
+                    {
+                        item.Info();
                     }
                 }
 

@@ -22,7 +22,10 @@ namespace User
 		{
 			return $"your username:{Username}\nyour email:{Email}\nyour phone number:{Phone}";
 		}
-		
+		public void Info()
+		{
+			Console.WriteLine($"{Username}");
+		}
 		
 	}
 }
